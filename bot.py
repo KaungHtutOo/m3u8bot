@@ -5,7 +5,7 @@ from traceback import print_exc
 from subprocess import PIPE, STDOUT
 from time import time
 
-api_id = int(os.environ('API_ID', 7978114))
+api_id = os.environ('API_ID', 7978114)
 api_hash = os.environ('API_HASH', '5f7839feeba133497f24acfd005ef2ec')
 bot_token = os.environ('BOT_TOKEN', '6135772410:AAHvOnKtVflG23aAKupNtZeQLjvDvsJavuI')
 
